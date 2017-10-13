@@ -1,4 +1,7 @@
 function draw(){
- 
-ellipse(150,150,100,100);   
+ createCanvas(150,150);
+    background(51);
+ellipse(50,50,100,100);
+    rect(10,10,90,90);
+    rect(20,20,70,70);
 }
