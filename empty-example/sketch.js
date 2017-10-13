@@ -1,7 +1,4 @@
-function setup() {
-  // put setup code here
-}
-
-function draw() {
-  // put drawing code here
+function draw(){
+ 
+ellipse(150,150,100,100);   
 }
