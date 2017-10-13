@@ -14,4 +14,16 @@ function setup(){
 //    vertex(280, 200);
 //    vertex(260,240);
 //    endShape();
+    
+
+}
+
+function draw(){
+    for(var x = 50; x <= width-50;x +=50 ){
+        for(var y = 50; y <= height-50;y +=50 ){
+            line(x-5, y-5, x+5, y+5);
+            line(x+5, y-5, x-5, y+5);
+        }
+    }
+    
 }
