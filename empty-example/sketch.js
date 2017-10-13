@@ -1,7 +1,17 @@
 function draw(){
-    createCanvas(300,300);
+    createCanvas(1920,1080);
     background(255, 204, 0);
-    ellipse(50,50,100,100);
-    rect(10,10,90,90)
-    rect(20,20,70,70);
+
+    beginShape();
+    fill(255,191,0);
+    vertex(100,240);
+    vertex(200,180);
+    vertex(220,120);
+    vertex(160,140);
+    vertex(420,120);
+    vertex(320,160);
+    vertex(400, 180);
+    vertex(280, 200);
+    vertex(260,240);
+    endShape();
 }
